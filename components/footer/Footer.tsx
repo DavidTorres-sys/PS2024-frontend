@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className='flexStart footer'>
+    <footer className='bg-blue-800 text-white py-8 px-5 mt-5'>
       <div className='flex flex-col gap-12 w-full'>
         <div className='flex items-start flex-col'>
           <img
@@ -18,10 +18,12 @@ const Footer = () => {
             número identificador y nomenclatura de dirección.
           </p>
         </div>
-        <div className='flex flex-wrap gap-12'></div>
+        <div className='flex flex-wrap gap-12'>
+          {/* Add footer links or additional content here */}
+        </div>
       </div>
     </footer>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
